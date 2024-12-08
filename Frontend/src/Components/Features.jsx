@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom'
 export const Features = () => {
   return (
     <>
-      <h1 className='m-9 text-4xl font-bold font-poppins'>Features that No other tool provides</h1>
+      <h1 className='m-9 text-4xl font-bold font-poppins text-center'>Features that No other tool provides</h1>
       <div className="mb-28 flex flex-row flex-wrap gap-2 justify-center">
         <div className="flex gap-2 flex-col">
           {/* two small card vertical */}
@@ -19,7 +19,7 @@ export const Features = () => {
         </div>
         <div className='md:mt-28'>
           {/* single card */}
-          <div className="p-4 border-2 h-[250px] md:h-[350px] w-80 rounded-3xl shadow-xl duration-500 hover:-translate-y-4 hover:shadow-lg hover:shadow-slate-800">
+          <div className="p-4 border-2 md:h-[350px] w-80 rounded-3xl shadow-xl duration-500 hover:-translate-y-4 hover:shadow-lg hover:shadow-slate-800">
             <h1 className='mb-2 text-3xl bg-clip-text text-transparent font-bold bg-gradient-to-r from-teal-400 to-yellow-200'>Startup Validation Made Easy</h1>
             <h2 className='pt-1'>Evaluate your ideas with precision. Our AI models assess feasibility, scalability, and market fit to validate your business concepts effectively.</h2>
            <Link to={"/Chat"}>

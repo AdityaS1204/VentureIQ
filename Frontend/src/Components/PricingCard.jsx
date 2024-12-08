@@ -29,7 +29,7 @@ export const PricingCard = ({ pricingDetail }) => {
   width="18"
   height="18"
   viewBox="0 0 24 24"
-  fill='#2866DF' className='relative inset-32 -top-[9px]'
+  fill='#2866DF' className='relative inset-28 -top-[9px]'
 >
   <rect width="24" height="24" rx="12" fill="#2866DF" />
   <path

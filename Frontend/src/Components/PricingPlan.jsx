@@ -53,7 +53,7 @@ export const PricingPlan = () => {
       </div>
 
     </div>
-    <div className="flex">
+    <div className="flex sm:flex-row flex-col">
       {/* pricing card */}
       {
         pricing.map((plan,index)=>(
