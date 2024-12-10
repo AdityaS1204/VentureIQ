@@ -1,11 +1,11 @@
 import React from 'react'
 
-export const PricingCard = ({ pricingDetail }) => {
+export const PricingCard = ({ pricingDetail,typeStyle,borderStyle }) => {
   return (
-    <div className="w-72 min-h-full m-2 p-3 flex flex-col rounded-xl bg-[#607f8a]">
+    <div className={`w-72 min-h-full m-2 p-3 flex flex-col rounded-xl bg-[#263236c9] ${borderStyle}`}>
       <div className="p-3 pb-9 mb-9 flex flex-col gap-4 justify-evenly rounded-xl bg-[#9aacfc] duration-500 hover:-translate-y-1 font-poppins">
         {/* small card */}
-        <h3>{pricingDetail.name}</h3>
+        <h3 className={`${typeStyle}`}>{pricingDetail.name}</h3>
         <h3 className='text-sm'><span className='font-bold'>$</span><span className='text-4xl font-bold'>{pricingDetail.price}</span>/{pricingDetail.credits} credits</h3>
         <button className='bg-[#4F46E5] rounded-full hover:bg-blue-800 p-1'>{pricingDetail.buttonTitle}</button>
       </div>
