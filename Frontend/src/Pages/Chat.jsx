@@ -67,7 +67,7 @@ const Chat = () => {
                       <option value="advanced" className="bg-[#525352ed]">MVP Roadmap (unlock with Pro Plan)</option>
                     </select>
                 </div>
-                <div className="h-96 w-fit p-5 border border-slate-400 bg-[#554e4ec1] rounded-xl flex flex-col gap-3 ">
+                <div className="h-96 w-6/12 p-5 border border-slate-400 bg-[#554e4ec1] rounded-xl flex flex-col gap-3 ">
                     <h1 className="font-semibold text-xl font-poppins">enter prompt</h1>
                     <p className="text-sm font-Roboto">explain your idea in more than 100 words.</p>
                     {/* <input type="text"
