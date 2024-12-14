@@ -1,8 +1,10 @@
 import React from 'react'
-
+import { PricingPlan } from '../Components'
 const Pricing = () => {
   return (
-    <div>Pricing</div>
+    <div className='min-h-screen h-full'>
+    <PricingPlan/>
+    </div>
   )
 }
 

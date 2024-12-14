@@ -11,7 +11,7 @@ export const Accordion = ({items}) => {
   return (
     
     <div className=" mt-20 flex justify-center flex-col items-center mx-auto">
-      <h1 className='text-4xl font-poppins font-bold'>FAQ</h1>
+      <h1 className='text-4xl font-poppins font-bold'>Frequently Asked Questions</h1>
       <h2 className='mb-10 text-center font-Roboto text-slate-600'>You will find answers for popular asked questions about the website and its functionality.</h2>
       {items.map((item, index) => (
         <div key={index} className="w-full p-4 md:p-6 text-xl font-poppins border rounded-md m-2 transition-transform duration-100 hover:bg-cyan-400">

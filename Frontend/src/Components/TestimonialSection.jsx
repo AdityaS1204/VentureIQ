@@ -8,7 +8,7 @@ export const TestimonialSection = () => {
 
   return (
     <>
-      <h1 className="text-4xl font-bold font-poppins">Testimonials</h1>
+      <h1 className="text-4xl font-bold font-poppins">What users says about VentureIQ</h1>
     {/* add some texxt */}
    
       {/* blur div */}

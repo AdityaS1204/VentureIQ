@@ -4,45 +4,7 @@ import { pricing } from '../constants/Content';
 
 
 export const PricingPlan = () => {
-  //  const pricing = [
-  //     {
-  //       id: 1,
-  //       type:"Free",
-  //       price:"0/month",
-  //       buttonTitle:"Try for free",
-  //       feature1:"2 free reports",
-  //       feature2:"All fundamental analysis",
-  //       feature3:"analysis through lastest data",
-  //       feature4:"feature 4",
-  //     },
-  //     {
-  //       id: 2,
-  //       type:"Starter",
-  //       price:"$29/month",
-  //       buttonTitle:"Get Starter",
-  //       feature1:"10 reports",
-  //       feature2:"All fundamental analysis",
-  //       feature3:"analysis through lastest data",
-  //       feature4:"Industry specific data",
-  //       feature5:"Peoduct/Service specific data",
-  //       feature6:"Get the latest trend of the industry",
-
-  //     },
-  //     {
-  //       id: 3,
-  //       type:"Pro",
-  //       price:"$49/month",
-  // buttonTitle:"Get Pro ",
-  // feature1:"20 reports",
-  // feature2:"All fundamental analysis",
-  // feature3:"analysis through lastest data",
-  // feature4:"Industry specific data",
-  // feature5:"Peoduct/Service specific data",
-  // feature6:"Get the latest trend of the industry",
-  // feature7:"Everything in Starter Plan"
-
-  //     },
-  //   ];
+ 
 
   return (
     <>

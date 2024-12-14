@@ -61,10 +61,10 @@ const Chat = () => {
                 <div>
                     <select name="analysis-type" className="w-80 bg-[#554e4ec1] p-2 m-1 border border-slate-400 rounded-xl" >
                      <option value="basic" className="bg-[#525352ed]">Idea Validation</option> 
-                      <option value="pro" className="bg-[#525352ed]">Market Analysis</option>
-                      <option value="advanced" className="bg-[#525352ed]">Marketing Strategy</option>
-                      <option value="advanced" className="bg-[#525352ed]">sales strategy</option>
-                      <option value="advanced" className="bg-[#525352ed]">MVP Roadmap</option>
+                      <option value="pro" className="bg-[#525352ed]">Market Analysis (unlock with Pro Plan)</option>
+                      <option value="advanced" className="bg-[#525352ed]">Marketing Strategy (unlock with Pro Plan)</option>
+                      <option value="advanced" className="bg-[#525352ed]">sales strategy (unlock with Pro Plan)</option>
+                      <option value="advanced" className="bg-[#525352ed]">MVP Roadmap (unlock with Pro Plan)</option>
                     </select>
                 </div>
                 <div className="h-96 w-fit p-5 border border-slate-400 bg-[#554e4ec1] rounded-xl flex flex-col gap-3 ">
