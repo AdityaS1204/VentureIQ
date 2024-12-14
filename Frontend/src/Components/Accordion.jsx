@@ -19,7 +19,7 @@ export const Accordion = ({items}) => {
             className="w-full text-left py-3 px-4 flex justify-between items-center"
             onClick={() => handleToggle(index)}
           >
-            <span className="font-medium">{item.title}</span>
+            <span className="font-medium font-poppins">{item.title}</span>
             <span className={`text-4xl transform transition-transform duration-300 ${activeIndex === index ? "rotate-90" : ""}`}>
               {">"}
             </span>
@@ -29,7 +29,7 @@ export const Accordion = ({items}) => {
               activeIndex === index ? "max-h-40 py-2" : "max-h-0"
             }`}
           >
-            <div className="px-4">{item.content}</div>
+            <div className="px-4 font-Roboto">{item.content}</div>
           </div>
         </div>
       ))}

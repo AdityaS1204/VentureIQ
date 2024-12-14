@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { motion, AnimatePresence } from "framer-motion";
-import { testimonials } from "../assets/Content";
+import { testimonials } from "../constants/Content";
 
 
 export const TestimonialSection = () => {

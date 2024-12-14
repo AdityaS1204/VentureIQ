@@ -1,3 +1,6 @@
+import { customer1,customer2 } from "../assets/images";
+
+
 export const pricing = [
   {
     id: 1,
@@ -41,6 +44,8 @@ export const pricing = [
     feature6: "Get the latest trend of the industry",
     featureN: "Everything in Starter",
     featureN1: "Everything in Pro",
+    featureN2: "Future updates for latest features",
+   
   },
 ];
 
@@ -49,7 +54,7 @@ export const testimonials = [
     id: 1,
     name: "Sarah Chen",
     role: "Product Manager at TechFlow",
-    image: "https://via.placeholder.com/150", // Replace with image
+    image: customer1, 
     review:
       "The attention to detail and innovative features have completely transformed our workflow. This is exactly what we've been looking for.",
   },
@@ -57,7 +62,7 @@ export const testimonials = [
     id: 2,
     name: "John Doe",
     role: "Software Engineer at InnovateX",
-    image: "https://via.placeholder.com/150", // Replace with image
+    image: customer1,
     review:
       "Their platform has been a game-changer for our team, allowing us to focus on what really matters. Highly recommended!",
   },
@@ -65,7 +70,7 @@ export const testimonials = [
     id: 3,
     name: "Emily Davis",
     role: "CEO at StartupPro",
-    image: "https://via.placeholder.com/150", // Replace with image
+    image: customer1,
     review:
       "The user-friendly interface and incredible support have made all the difference for our growing company.",
   },
@@ -73,10 +78,10 @@ export const testimonials = [
 
 
 export const accordionItems = [
-    { title: "What is React?", content: "React is a JavaScript library for building user interfaces." },
-    { title: "What is Tailwind CSS?", content: "Tailwind CSS is a utility-first CSS framework." },
-    { title: "Why use React?", content: "React allows for building reusable and scalable components." },
-    { title: "What is React?", content: "React is a JavaScript library for building user interfaces." },
-    { title: "What is Tailwind CSS?", content: "Tailwind CSS is a utility-first CSS framework." },
-    { title: "Why use React?", content: "React allows for building reusable and scalable components." },
+    { title: "What is VentureIQ?", content: "React is a JavaScript library for building user interfaces." },
+    { title: "What is included in Pro pack?", content: "Tailwind CSS is a utility-first CSS framework." },
+    { title: "Why use VentureIQ?", content: "React allows for building reusable and scalable components." },
+    { title: "What is included in Pro pack?", content: "React is a JavaScript library for building user interfaces." },
+    { title: "What is VentureIQ?", content: "Tailwind CSS is a utility-first CSS framework." },
+    { title: "Why use included in Pro pack?", content: "React allows for building reusable and scalable components." },
   ];

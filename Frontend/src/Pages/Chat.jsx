@@ -9,7 +9,7 @@ const Chat = () => {
     const [result, setResult] = useState('');
 
 
-// use dotenv before uploading to github
+    // use dotenv before uploading to github
     const genAI = new GoogleGenerativeAI('AIzaSyBKvCxOu4zN5l9wygcfV7AnfG0ActLBSa0');
     // Define an async function to call the model
     async function generateStory() {
@@ -42,10 +42,10 @@ const Chat = () => {
     return (
 
         <div className="h-screen w-3/5 flex-col justify-center items-end">
-        {/* some text can be added to look good */}
+            {/* some text can be added to look good */}
             <div className="w-full  flex flex-col items-center ">
-                <div className="mb-40">
-                <MarkDwTemp markedContent={result} />
+                <div className="mb-32">
+                    <MarkDwTemp markedContent={result} />
                 </div>
                 {/* <div className="fixed left-1/4 bottom-5 p-2 w-6/12 flex justify-between pr-3 rounded-full bg-gradient-to-r from-teal-100 to-yellow-200">
                     <input type="text"
@@ -59,13 +59,34 @@ const Chat = () => {
                         submit
                     </button>
                 </div> */}
-                <div className="h-96 w-fit p-5 border border-slate-400 bg-[#554e4ec1] rounded-xl">
-                    <h1>enter prompt</h1>
-                    <p className="text-sm">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis, veniam?</p>
-                    <input type="text"
-                    className="w-full h-max
-                     pl-3 border-2 rounded-lg border-slate-300 bg-transparent"
-                    />
+                <div>
+                    <select name="analysis-type" className="w-80 bg-[#554e4ec1] p-2 m-1 border border-slate-400 rounded-xl" >
+                     <option value="basic" className="bg-[#525352ed]">Idea Validation</option> 
+                      <option value="pro" className="bg-[#525352ed]">Market Analysis</option>
+                      <option value="advanced" className="bg-[#525352ed]">Marketing Strategy</option>
+                      <option value="advanced" className="bg-[#525352ed]">sales strategy</option>
+                      <option value="advanced" className="bg-[#525352ed]">MVP Roadmap</option>
+                    </select>
+                </div>
+                <div className="h-96 w-fit p-5 border border-slate-400 bg-[#554e4ec1] rounded-xl flex flex-col gap-3 ">
+                    <h1 className="font-semibold text-xl font-poppins">enter prompt</h1>
+                    <p className="text-sm font-Roboto">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis, veniam?</p>
+                    {/* <input type="text"
+                    className="w-full h-72 pl-3 border-2 rounded-lg border-slate-300 bg-transparent"
+                    /> */}
+                    <textarea name="input-prompt"
+                        className="w-full h-72 p-3 border-2 rounded-lg border-slate-300 bg-transparent font-poppins caret-white"
+                    ></textarea>
+                    <div className="flex gap-2">
+                        <button
+                            className="pl-4 pr-4 p-2 rounded-xl bg-slate-800 font-poppins hover:bg-slate-700"
+                            onClick={submitPrompt}
+                        >Submit</button>
+                        <button
+                            className="pl-4 pr-4 rounded-xl bg-slate-800 font-poppins hover:bg-slate-700"
+                            
+                        >Download Report</button>
+                    </div>
                 </div>
             </div>
         </div>

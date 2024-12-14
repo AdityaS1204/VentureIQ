@@ -1,6 +1,6 @@
 import React from 'react'
 import { Features, TestimonialSection, PricingPlan, CallToAction, Accordion, Footer  } from '../Components/index'
-import { accordionItems } from '../assets/Content'
+import { accordionItems } from '../constants/Content'
 import { Link } from 'react-router-dom'
 
 
@@ -10,7 +10,7 @@ const Home = () => {
 
 
   return (
-    <div className="flex flex-col justify-center items-center">
+    <div className="flex flex-col justify-center items-center ">
       <div className="w-6/12 md:w-8/12 mt-[5rem] flex flex-col justify-center items-center">
         <h2 className='font-bold text-gray-800 font-poppins'>Ideate.Research.Execute</h2>
         <h1 className='mb-4  text-center text-7xl font-[700]  bg-gradient-to-r from-teal-100 to-yellow-200 bg-clip-text text-transparent font-poppins'>Refine Ideas and Explore Markets with AI.</h1>

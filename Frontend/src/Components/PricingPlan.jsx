@@ -1,6 +1,6 @@
 import React from 'react'
 import { PricingCard } from './PricingCard';
-import { pricing } from '../assets/Content';
+import { pricing } from '../constants/Content';
 
 
 export const PricingPlan = () => {

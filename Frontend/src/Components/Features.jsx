@@ -9,18 +9,18 @@ export const Features = () => {
         <div className="flex gap-2 flex-col">
           {/* two small card vertical */}
           <div className="p-4 border-2 h-[250px] w-80 rounded-3xl shadow-xl duration-500 hover:-translate-y-4 hover:shadow-lg hover:shadow-slate-800">
-            <h1 className='mb-2 text-3xl bg-clip-text text-transparent font-bold bg-gradient-to-r from-teal-400 to-yellow-200'>Cutting-Edge AI Models</h1>
+            <h1 className='mb-2 text-3xl bg-clip-text text-transparent font-bold bg-gradient-to-r from-teal-200 to-yellow-200'>Cutting-Edge AI Models</h1>
             <h2 className='pt-1'>Advanced AI for accurate, reliable, and tailored predictions.</h2>
           </div>
           <div className="p-4 border-2 h-[250px] w-80 rounded-3xl duration-500 shadow-xl hover:-translate-y-4 hover:shadow-lg hover:shadow-slate-800">
-            <h1 className='mb-2 text-3xl bg-clip-text text-transparent font-bold bg-gradient-to-r from-teal-400 to-yellow-200'> Data-Driven Intelligence</h1>
+            <h1 className='mb-2 text-3xl bg-clip-text text-transparent font-bold bg-gradient-to-r from-teal-200 to-yellow-200'> Data-Driven Intelligence</h1>
             <h2 className='pt-1'>AI insights to empower smarter decisions.</h2>
           </div>
         </div>
         <div className='md:mt-28'>
           {/* single card */}
           <div className="p-4 border-2 md:h-[350px] w-80 rounded-3xl shadow-xl duration-500 hover:-translate-y-4 hover:shadow-lg hover:shadow-slate-800">
-            <h1 className='mb-2 text-3xl bg-clip-text text-transparent font-bold bg-gradient-to-r from-teal-400 to-yellow-200'>Startup Validation Made Easy</h1>
+            <h1 className='mb-2 text-3xl bg-clip-text text-transparent font-bold bg-gradient-to-r from-teal-200 to-yellow-200'>Startup Validation Made Easy</h1>
             <h2 className='pt-1'>Evaluate your ideas with precision. Our AI models assess feasibility, scalability, and market fit to validate your business concepts effectively.</h2>
            <Link to={"/Chat"}>
            <button className='mt-12 p-3 w-full h-14 border-2 rounded-full flex justify-between items-center font-semibold text-xl duration-500 hover:-translate-y-4 hover:shadow-lg hover:shadow-slate-500'>Try Now <span> <svg
@@ -43,11 +43,11 @@ export const Features = () => {
         <div className="flex flex-col gap-2">
           {/* two small card vertical */}
           <div className="p-4 border-2 h-[250px] w-80 rounded-3xl shadow-xl duration-500 hover:-translate-y-4 hover:shadow-lg hover:shadow-slate-800">
-            <h1 className='mb-2 text-3xl bg-clip-text text-transparent font-bold bg-gradient-to-r from-teal-400 to-yellow-200'> Custom Sales & Marketing Strategies</h1>
+            <h1 className='mb-2 text-3xl bg-clip-text text-transparent font-bold bg-gradient-to-r from-teal-200 to-yellow-200'> Custom Sales & Marketing Strategies</h1>
             <h2 className='pt-1'> AI-powered strategies for growth and success.</h2>
           </div>
           <div className="p-4 border-2 h-[250px] w-80 rounded-3xl shadow-xl duration-500 hover:-translate-y-4 hover:shadow-lg hover:shadow-slate-800">
-            <h1 className='mb-2 text-3xl bg-clip-text text-transparent font-bold bg-gradient-to-r from-teal-400 to-yellow-200'>Fast and Intuitive Platform</h1>
+            <h1 className='mb-2 text-3xl bg-clip-text text-transparent font-bold bg-gradient-to-r from-teal-200 to-yellow-200'>Fast and Intuitive Platform</h1>
             <h2 className='pt-1'>A user-friendly platform for quick AI insights.</h2>
           </div>
         </div>
