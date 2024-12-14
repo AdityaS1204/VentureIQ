@@ -8,7 +8,7 @@ const Chat = () => {
     const [userPrompt, setUserPrompt] = useState('');
     const [result, setResult] = useState('');
 
-    const genAI = new GoogleGenerativeAI(import.meta.env.VITE_GEMINI_API_KEY);
+    const genAI = new GoogleGenerativeAI('AIzaSyBKvCxOu4zN5l9wygcfV7AnfG0ActLBSa0');
 
     async function generateStory() {
         try {
