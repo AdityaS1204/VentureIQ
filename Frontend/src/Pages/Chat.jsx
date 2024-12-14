@@ -69,7 +69,7 @@ const Chat = () => {
                 </div>
                 <div className="h-96 w-fit p-5 border border-slate-400 bg-[#554e4ec1] rounded-xl flex flex-col gap-3 ">
                     <h1 className="font-semibold text-xl font-poppins">enter prompt</h1>
-                    <p className="text-sm font-Roboto">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis, veniam?</p>
+                    <p className="text-sm font-Roboto">explain your idea in more than 100 words.</p>
                     {/* <input type="text"
                     className="w-full h-72 pl-3 border-2 rounded-lg border-slate-300 bg-transparent"
                     /> */}
