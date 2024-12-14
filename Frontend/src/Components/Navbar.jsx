@@ -15,7 +15,7 @@ export const Navbar = () => {
           </svg>
           <span className="text-xl font-bold font-poppins">VentureIQ</span>
         </div>
-        <div className='sm:flex sm:gap-3 hidden gap'>
+        <div className='sm:flex sm:gap-8 hidden gap'>
           <NavLink to={"/"} >Home</NavLink>
           <NavLink to={"/Feature"}>Features</NavLink>
           <NavLink to={"/Pricing"}>Pricing</NavLink>

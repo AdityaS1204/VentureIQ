@@ -9,3 +9,18 @@
 body{
   overflow-x: hidden;
 }
+
+table{
+  border: 1px solid cyan;
+  border-radius: 40px;
+ padding:30px;
+ border-collapse: separate;
+ overflow: hidden;
+ border-spacing: 0;
+ font-size: medium;
+}
+th,tr{
+  background-color: #282A2C;
+  border-bottom: 1px solid #494d51;
+  padding: 10px;
+}
